@@ -6,5 +6,6 @@
 - Имеет схожий интерфейс с классом [*LogisticRegression*](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) библиотеки [*scikit-learn*](https://scikit-learn.org/)
 - Использует оптимизацию **Batch Gradient Descent**, давая возможность подбирать размер батча пользователю
 - Обучение делится на эпохи, и в течении каждой эпохи алгоритм обучается на каждом из наблюдений ровно один раз. Количество эпох также задается пользователем
+- Возможность получить веса обученной модели, методом `get_weights()`
 
 Подробные примеры использования можно увидеть в этом [jupyter ноутбуке](http://localhost:8888/notebooks/DL%20School/homeworks/%5Bhomework%5Dlinear_models_refined_2021.ipynb), в котором также можно будет найти сравнения c аналогичным алгоритмом из библиотеки *scikit-learn*.
