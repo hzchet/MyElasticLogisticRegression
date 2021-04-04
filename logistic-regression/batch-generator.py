@@ -22,4 +22,3 @@ def generate_batches(X, y, batch_size):
         yield (X[perm[:batch_size]], y[perm[:batch_size]])
         length -= batch_size
         perm = perm[:batch_size]
-
