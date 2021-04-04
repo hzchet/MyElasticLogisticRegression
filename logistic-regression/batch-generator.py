@@ -1,4 +1,4 @@
-# Python code that generates batches of a given size
+# python code that generates batches of a given size
 import numpy as np
 
 
